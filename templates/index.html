@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/style.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Collector</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Collecting Height</h1>
+        <h3>Please fill in to get statistics on height</h3>
+
+        <div class='message'>
+            {{text}}
+        </div>
+    <form action='{{url_for("success")}}' method='POST'>
+        <input name='email' title='Your email will be save with us' type='email' placeholder="Enter your email" required />
+        <br>
+        <input required name='height' step='0.1' title='Your data will be save with us' min='50' max='300' type='number' placeholder="Enter your height" required />
+        <br>
+        <button type='submit'>Submit</button>
+    </form>
+    </div>
+</body>
+</html> 
