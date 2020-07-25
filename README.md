@@ -8,4 +8,4 @@ Simple app which calculates avg height of given users. User provide his/her heig
 <li>Postgres</li>
 </ul>
 
-### Created for shining my rusty hands on flask and Postgres :)
+### Created for shining my rusty hands on flask and Postgres. :)
